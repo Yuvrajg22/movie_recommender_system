@@ -28,7 +28,7 @@ movie-recommender/
 |--movie_recommender_system1-checkpoint.ipynb
 │── app.py
 │── movies.pkl
-│── data/                # NEW folder for raw/clean datasets
+│── data/                # data can be downloaded from kaggle tmdb dataset
 │   └── movies_metadata.csv
 │   └── credits.csv
 │── requirements.txt
@@ -67,3 +67,4 @@ streamlit run app.py
 Streamlit will give you a local URL, usually:
 
 👉 http://localhost:8501
+
