@@ -24,18 +24,16 @@ It recommends 5 movies similar to the one selected by the user.
 ## 📂 Project Structure
 
 movie-recommender/
-|-- .ipynb_checkpoints/
-|      |--movie_recommender_system1-checkpoint.ipynb
+
+|--movie_recommender_system1-checkpoint.ipynb
 │── app.py
 │── movies.pkl
-│── similarity.pkl
 │── data/                # NEW folder for raw/clean datasets
 │   └── movies_metadata.csv
 │   └── credits.csv
 │── requirements.txt
 │── README.md
-│── .gitignore
-│── train_model.ipynb    # NEW notebook for preprocessing/training
+ # NEW notebook for preprocessing/training
 
 
 
@@ -67,4 +65,5 @@ streamlit run app.py
 
 5️⃣ Open in browser
 Streamlit will give you a local URL, usually:
+
 👉 http://localhost:8501
